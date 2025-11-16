@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\Managers\\":"src/Managers/",
+            "App\\Repository\\": "src/Repository/",
+            "App\\Middleware\\":"src/Middleware/",
+            "App\\Services\\":"src/Services/", 
+            "App\\Router\\":"src/Router/",
+            "App\\Model\\":"src/Model/"            
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "1.1.0",
+        "twbs/bootstrap": "5.3.3",
+        "components/jquery": "^3.7",
+        "components/font-awesome": "^6.5",
+        "php-pagination/php-pagination": "^2",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
